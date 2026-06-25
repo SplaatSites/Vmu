@@ -5,6 +5,10 @@
 
 **NOTE: this emulator is still a work in progress.**
 
+## Roadmap
+- [ ] Make libretro core.
+- [ ] Add compatibility with more games
+
 ## Building and Running
 Create a folder in the same location as VFrown named `sysrom` and insert a copy of your BIOS called `sysrom.bin`. While this step isn't required by V.Frown, not all games can run properly (or at all) without a System ROM image.
 
