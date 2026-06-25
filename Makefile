@@ -60,7 +60,7 @@ obj=$(src:.c=.o)
 
 .PHONY: Vmu clean
 
-VFrown: $(obj)
+Vmu: $(obj)
 	$(CC) -o $@ $^ $(CFLAGS) $(LIBS)
 
 clean:
