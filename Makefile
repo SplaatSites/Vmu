@@ -58,7 +58,7 @@ CFLAGS += $(INCS)
 
 obj=$(src:.c=.o)
 
-.PHONY: VFrown clean
+.PHONY: Vmu clean
 
 VFrown: $(obj)
 	$(CC) -o $@ $^ $(CFLAGS) $(LIBS)
